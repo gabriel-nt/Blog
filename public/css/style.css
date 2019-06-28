@@ -1,0 +1,38 @@
+body {
+    background-image: url('../img/bg.png');
+    color: #fff;
+}
+
+#register {
+    margin-top: 30px;
+}
+
+.login {
+    margin-top: 70px;
+}
+
+.login .card {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.login .card-action h3 {
+    margin-top: 5px;
+}
+
+.login label {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.login input {
+    font-size: 22px;
+    color: #fff;
+}
+
+.login button:hover {
+    padding: 0 40px;
+}
+
+.login .card .card-content p {
+    margin-bottom: 14px;
+}

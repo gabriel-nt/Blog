@@ -1,0 +1,206 @@
+header {
+    background-image: url('../img/bg.jpg');
+    height: 400px;
+    background-size: cover;
+}
+
+.hiddendiv .commom {
+    display: none;
+}
+
+.nav {
+    background: transparent;
+}
+
+.nav-wrapper {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.register {
+    background-color: #0bacac;
+}
+
+.register:hover {
+    background-color: #00caca;
+}
+
+.login {
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.login:hover {
+    color: #3498db;
+    background-color: transparent;
+    border-color: #3498db;
+}
+
+.desktop a:hover {
+    height: 60px;
+    border-bottom: 2px solid aliceblue;
+}
+
+#dropdown li a {
+    color: black;
+}
+
+.padding-collapsible {
+    padding: 0 16px !important;
+}
+
+.padding-collapsible>a {
+    padding: 0 !important;
+}
+
+a.subheader>i.material-icons.left {
+    height: auto;
+    line-height: inherit;
+}
+
+.slider .indicators .indicator-item {
+    height: 12px;
+    width: 12px;
+}
+
+.collapsible li .collapsible-header i.right {
+    transition: transform .2s linear;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #00b0ff;
+}
+
+#sobre {
+    margin-top: 45px;
+    line-height: 50px;
+    font-weight: bold;
+    border: 2px solid #3498db;
+    border-radius: 40px;
+}
+
+#sobre:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid #00b0ff;
+    background-color: transparent;
+}
+
+.title {
+    margin-top: 55px;
+}
+
+#services {
+    background-color: #eeeef3;
+}
+
+.icone {
+    color: #1976d2;
+}
+
+#notificacao {
+    padding: 20px;
+    margin-bottom: 0;
+    align-content: center;
+}
+
+.card-image img {
+    max-width: 200px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.card-image {
+    clear: both;
+    margin-top: 20px;
+}
+
+.imagem {
+    max-width: 500px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+}
+
+.pagination li.active {
+    background-color: #00b0ff;
+    padding: 5px 8px;
+    color: #fff;
+}
+
+#subtitulos {
+    margin-top: 0;
+}
+
+#contato {
+    margin-bottom: 0;
+}
+
+#semMargem {
+    margin-bottom: 5px;
+}
+
+.background {
+    background-image: url('../img/textura.jpg');
+}
+
+.p {
+    font-size: 16px;
+}
+
+.comentario {
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.margemBottom {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.validacao {
+    font-size: 14px;
+}
+
+.msg-info {
+    border-color: #0288d1;
+    background-color: #29b6f6;
+    color: white;
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    div.hiddendiv.commom {
+        width: 0 !important;
+    }
+    header {
+        height: 300px;
+    }
+    .image {
+        height: 195px;
+    }
+    .slider .indicators .indicator-item {
+        height: 16px;
+        width: 16px;
+    }
+    .nav-wrapper a {
+        font-size: 20px;
+    }
+    .desktop a {
+        font-size: 14px;
+    }
+    .drop a {
+        font-size: 14px;
+    }
+    .title {
+        margin-top: 150px;
+    }
+    .background {
+        background: none;
+    }
+    .title {
+        margin-top: 50px;
+    }
+}
