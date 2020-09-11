@@ -1,3 +1,6 @@
+<p align="center">
+    <img src="https://github.com/Gabriel-Teixeira/Blog/blob/master/public/img/logo.svg" alt="logo.svg" height="100"/>
+</p>
 <h1 align="center">
     🚀 Blog com Laravel
 </h1>
@@ -35,6 +38,9 @@
 - [x] Notificação de Email
 - [x] Upload de Imagens
 - [x] Gerador de XZML das notícias
+
+### ✅ Demonstração
+<img src="https://github.com/Gabriel-Teixeira/Blog/blob/master/public/img/news.PNG" alt="news" />
 
 ### ⚙ Pré-requisitos
 
