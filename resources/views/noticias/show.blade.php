@@ -7,7 +7,7 @@
         <div class="row margemBottom">
             <div class="col s12 l10 push-l1">               
                 <h4 style="margin-top:0;padding-top:10px; font-family:'Alfa Slab One', cursive;">{{ $noticia->titulo }}</h4>
-                <img src="{{  url("storage/{$noticia->imagem}")  }}" class="responsive-img center imagem">
+                <img src="{{  url("{$noticia->imagem}")  }}" class="responsive-img center imagem">
                 <p class="flow-text" align="justify">{{ ($noticia->descricao) }}</td>
                 <div class="row">
                     <div class="col s12"> 

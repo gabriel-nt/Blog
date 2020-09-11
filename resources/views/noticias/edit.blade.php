@@ -29,7 +29,7 @@
             </div>
             @if ($noticia->imagem !=null)
                 <span><b>Imagem:</b></span>
-                <img src="{{ url("storage/{$noticia->imagem}") }}" style = "width: 50px;">
+                <img src="{{ url("{$noticia->imagem}") }}" style = "width: 50px;">
                 <input type="hidden" value="{{ $noticia->imagem }}" name="image">
             @endif
             <div class="file-field input-field">

@@ -89,7 +89,7 @@
     <div class="col s12 m6 l4">
         <div class="card hoverable">
             <div class="card-image">
-            <img src="{{ url("storage/{$noticia->imagem}") }}" class="materialboxed center image responsive-image"/>
+            <img src="{{ url("{$noticia->imagem}") }}" class="materialboxed center image responsive-image"/>
             <a class="btn-floating halfway-fab waves-effect waves-light red" href="{{ route('noticias.view',['noticia'=> $noticia->id]).'#comentar'}}"><i class="material-icons">add</i></a>
             </div>   
             <div class="card-content">
