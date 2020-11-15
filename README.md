@@ -37,7 +37,7 @@
 - [x] Cadastrar na newsletter
 - [x] Notificação de Email
 - [x] Upload de Imagens
-- [x] Gerador de XZML das notícias
+- [x] Gerador de XML das notícias
 
 ### ✅ Demonstração
 <img src="https://github.com/Gabriel-Teixeira/Blog/blob/master/public/img/news.PNG" alt="news" />
